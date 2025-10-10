@@ -6,12 +6,6 @@
   "build": {
     "monorepo": {
       "pnpm": "9.15.4",
-      "cache": {
-        "key": "turbo",
-        "paths": [
-          "../../node_modules/.cache/turbo"
-        ]
-      },
       "env": {
         "EXPO_USE_FAST_RESOLVER": "true"
       }
